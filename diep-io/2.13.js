@@ -2095,9 +2095,10 @@ var go = function(ip, mode) {
 		function play() {
 			if (io) {
 			// if (!mobile) {
-			   if (/*parse_query_string(window.location.search.substring(1)).source != "app" && */window.location.hostname != "localhost" && (playCount - 2) % 1 == 0) {
-					showVideoAd();
-				} else {
+			 //  if (/*parse_query_string(window.location.search.substring(1)).source != "app" && */window.location.hostname != "localhost" && (playCount - 2) % 1 == 0) {
+				//	showVideoAd();
+				//} else 
+				{
 					continueToPlay();
 				}
 			};
