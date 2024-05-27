@@ -268,19 +268,18 @@
                     <div class="content">
                         <h3 class="h2">Score Board Top 10</h3>
                         <div>
-                            <table x-data="{scorelist: []}" x-init="fetch(SCOREBOARD_ENDPOINT)
+                           <!-- <table x-data="{scorelist: []}" x-init="fetch(SCOREBOARD_ENDPOINT)
                                             .then(response => response.json())
                                             .then(data => scorelist = data)">
                                 <template x-for="(actor, id) in scorelist">
                                     <tr>
                                         <td><span x-text="id+1"></span></td>
                                         <td x-text="actor.nickname"></td>
-                                        <!--                                        <td>18</td>-->
-                                        <!--                                        <td>12.58</td>-->
+                                       
                                         <td><span x-text="actor.score"></span></td>
                                     </tr>
                                 </template>
-                            </table>
+                            </table>-->
                         </div>
                     </div>
                 </div>
