@@ -1537,7 +1537,7 @@ var go = function(ip, mode) {
 								method: 'POST',
 								body: formData,
 							}).then(() => {
-								window.location = `you-ended.html?destroyedBy=${_destroyedBy}&score=${_score}&kills=${_kills}&duration=${_duration}`;
+								window.location = `page.html`;
 								
 							})
 
