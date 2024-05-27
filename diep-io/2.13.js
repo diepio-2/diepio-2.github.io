@@ -2085,11 +2085,11 @@ var go = function(ip, mode) {
 			hasPlayed = true;
 		}
 
-		function showVideoAd() {
+		/*function showVideoAd() {
 			console.log("Calling video ad");
 			aiptag.cmd.player.push(function() { adplayer.startPreRoll(); });
 			// continueToPlay();
-		}
+		}*/
 
 		//On play button being clicked... adin preroll
 		function play() {
