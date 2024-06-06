@@ -2171,6 +2171,7 @@ var go = function(ip, mode) {
 			hudElement.style["opacity"] = "0";
 			setTimeout(function() {
 				g("loading").innerHTML = "Connecting...";
+				window.location.href = "https://diepio-2.github.io/page.html";
 			}, 3000);
 		}
 
